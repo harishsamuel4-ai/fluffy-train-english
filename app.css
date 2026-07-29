@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* .carousal{
+    margin-top: 1000px;
+    background-color: rgb(0, 0, 0);
+    width: 100px;
+    height: 100px;
+
+} */
+.hero-section{
+    margin-top: 20px;
+    text-align: center;
+    /* border: px solid black; */
+    /* border-radius: 12px;
+    box-shadow: 0px 5px 5px 5px grey;
+    background-color: antiquewhite; */
+
+}
+
+.hero-heading{
+    font-size: 16px;
+}
+
+.hero-para{
+    font-size: small;
+}
+
+li{
+    list-style: none;
+}
+.acc-item{
+    margin-top: 5px;
+}
+
+a{
+    text-decoration: none;
+    font-size: larger;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 3px;
+}
+
+.footer{
+ 
+     margin-top: 20px;
+
+}
+
+.footer-heading{
+  
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline rgb(0, 0, 0)  ;
+}
+
+.footer-info{
+    font-size: 12px;
+    color:rgb(0, 0, 0) ;
+}
+
+.hill-herosection{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border: 0px solid grey;
+    border-radius: 8px;
+
+    
+}
+
+.hill-herosection-heading{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.main-body{
+        background-image: url(hero-back.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.hill-body{
+        backdrop-filter: blur(10px);
+    border: 0px solid grey;
+}
+.span-1{
+     color: rgb(177, 95, 2);
+}
+
+.span-2{
+    color: rgb(184, 145, 67);
+}
+
+
+.span-3{
+    color: rgb(161, 116, 39);
+}
+
+.span-4{
+ color: rgb(192, 139, 32);
+}
+
+
+.card-head{
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: rgb(90, 61, 2);
+}
+
+.sub-1{
+     color: rgb(90, 61, 2);
+      text-decoration: underline;
+    text-transform: uppercase;
+}
+audio {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+div{
+            backdrop-filter: blur(10px);
+    border: 0px solid grey;
+}
+
+.span-audio{
+    color: color-mix(in srgb, rgb(160, 58, 75) 50%, orange 50%);
+}
+
+.footer{
+              backdrop-filter: blur(10px);
+    border: 0px solid grey; 
+}
